@@ -1,8 +1,50 @@
 <%- include('./partials/head') %>
 
 <article>
-  <h1>Hallo wereld!</h1>
-  <p>Alles werk! Laat dit visitekaartje in je browser aan een docent zien :D</p>
+  <header>
+    <h1>Rick Vellinga</h1>
+    <p><em>Frontend Developer</em></p>
+  </header>
+
+  <img src="assets/ik.jpg" alt="Creative Coder">
+
+  <dl>
+    <dt>19 jaar</dt>
+    <dd>Leeftijd</dd>
+    <dt>IJmuiden</dt>
+    <dd>Woonplaats</dd>
+    <dt>CSS, HTML, JS</dt>
+    <dd>Skills</dd>
+  </dl>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides">
+      <div class="info">
+        <img src="./assets/skills.png" alt="" class="infoimg">
+        <div class="tekst">
+          <p class="author">Skills</p>
+          <p class="txtslide">Ik hou mij vooral bezig met HTML, CSS en JS.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="info">
+        <img src="./assets/hobby.jpg" alt="" class="infoimg">
+        <div class="tekst">
+          <p class="author">Hobbies</p>
+          <p class="txtslide">Mijn hobbies zijn vooral Basketbal en uitgaan & gamen met vrienden,</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
 </article>
+
+<script src="./scripts/script.js"></script>
 
 <%- include('./partials/foot') %>
