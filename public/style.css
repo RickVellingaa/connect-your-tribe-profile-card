@@ -43,7 +43,7 @@ header {
 
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -286,4 +286,14 @@ q {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  .mySlides {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  article{
+    width: 80vw;
+  }
 }
