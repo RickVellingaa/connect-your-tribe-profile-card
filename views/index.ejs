@@ -2,11 +2,12 @@
 
 <article>
   <header>
-    <h1>Rick Vellinga</h1>
+    <a href="https://github.com/<%= member.gitHubHandle %>"><h1><%= member.prefix %> <%= member.name %> <%= member.surname %></h1></a>
+    <p><em>AKA <%= member.nickname %></em></p>
     <p><em>Frontend Developer</em></p>
   </header>
 
-  <img src="assets/ik.jpg" alt="Creative Coder">
+  <a href="<%= member.website %>"><img src="<%= member.avatar %>" alt="Creative Coder"></a>
 
   <dl>
     <dt>19 jaar</dt>
@@ -19,12 +20,12 @@
 
   <div class="slideshow-container">
 
-    <div class="mySlides">
+    <div class="mySlides active">
       <div class="info">
         <img src="./assets/skills.png" alt="" class="infoimg">
         <div class="tekst">
           <p class="author">Skills</p>
-          <p class="txtslide">Ik hou mij vooral bezig met HTML, CSS en JS.</p>
+          <p class="txtslide"><%= member.bio.html %></p>
         </div>
       </div>
     </div>
@@ -34,7 +35,8 @@
         <img src="./assets/hobby.jpg" alt="" class="infoimg">
         <div class="tekst">
           <p class="author">Hobbies</p>
-          <p class="txtslide">Mijn hobbies zijn vooral Basketbal en uitgaan & gamen met vrienden,</p>
+          <p class="txtslide">Mijn hobbies zijn vooral Basketbal en uitgaan & gamen met vrienden.</p>
+          
         </div>
       </div>
     </div>
