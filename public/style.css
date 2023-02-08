@@ -296,4 +296,7 @@ q {
   article{
     width: 80vw;
   }
+  dt:nth-of-type(3) {
+    width: 75px;
+}
 }
