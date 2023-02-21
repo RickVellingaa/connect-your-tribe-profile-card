@@ -18,7 +18,7 @@ De opdracht was om je bestaand visitekaartje in plaats van client side, server s
 
 ## :black_nib: Cyclic
  
-Ik heb tijdens dit project voor het eerst cyclic gebruikt, zie hieronder de link de link naar mijn visitekaarjte. 
+Ik heb tijdens dit project voor het eerst cyclic gebruikt, zie hieronder de link de link naar mijn visitekaarjte. <br>
 Link: https://frantic-sweater-clam.cyclic.app/
 
 ## :black_nib: Gebruik
