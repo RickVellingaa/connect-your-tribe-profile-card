@@ -1,33 +1,49 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Visitekaartje met NodeJS
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+![visite](https://user-images.githubusercontent.com/112856287/220466977-7db253bc-d2da-464b-85aa-3bb1b51a37ea.png)
 
-## Inhoudsopgave
+Visitekaartje gemaakt door middel van NodeJS en een rest API.
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+## :bookmark_tabs: Inhoudsopgave
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+* [Beschrijving](#beschrijving)
+* [Cyclic](#cyclic)
+* [Gebruik](#gebruik)
+* [Checklist](#checklist) 
+* [Kenmerken](#kenmerken) 
+  
+## :office: Beschrijving
+ 
+De opdracht was om je bestaand visitekaartje in plaats van client side, server side te maken door middel van NodeJS. Met NodeJS en ejs heb ik daarom ook mijn visitekaartje in bepaalde (partial) views gezet. Met de Whois api heb ik bepaalde static teksten vervangen door gegevens uit de API, zoals mijn naam, nickname, bio en Github link.
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+## :black_nib: Cyclic
+ 
+Ik heb tijdens dit project voor het eerst cyclic gebruikt, zie hieronder de link de link naar mijn visitekaarjte. 
+Link: https://frantic-sweater-clam.cyclic.app/
 
-## Installatie
+## :black_nib: Gebruik
 
-## Gebruik
+1. Download de ZIP
+2. Pak het bestand uit en open het met Visual studio code
+3. Open een terminal en voer npm install uit 
+4. Na de installatie voer npm start uit om een link te krijgen
+5. Klik op de link met crtl + left click om het project te bekijken
+ 
+## :heavy_check_mark: Checklist
+ 
+- [x] Visitekaartje server sided gemaakt met NodeJS
+- [x] Gegevens halen uit een Rest API
+- [x] Visitekaartje online zetten met Cyclic
+- [ ] Redesign van visitekaartje
 
-## Bronnen
-
-## Licentie
-
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
-
-This work is licensed under [GNU GPLv3](./LICENSE).
+## :scissors: Kenmerken
+ 
+* HTML
+* CSS
+* JS
+* NodeJS
+* EJS
+* Express
+* JSON
+* REST
+* API
